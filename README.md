@@ -34,7 +34,7 @@ https://github.com/user-attachments/assets/02fa2491-ac09-4bc0-bf57-955192f37755
 - [x] Add inference codes with checkpoints.
 - [x] Add training codes.
 - [x] Add evaluation codes.
-- [ ] Add Gradio demo to generate model inputs on in-the-wild images.
+- [x] Add Gradio demo to generate model inputs on in-the-wild images.
 - [ ] Release full training data.
 
 ## ⚙️ Quick Start
