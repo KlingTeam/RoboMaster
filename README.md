@@ -88,6 +88,14 @@ https://github.com/user-attachments/assets/02fa2491-ac09-4bc0-bf57-955192f37755
     cd scripts
     bash train_injector.sh
     ```
+
+### 4. Gradio Demo for In-the-Wild Image Inputs
+1. Change path to `gradio`. Put the image in `inthewild_img`, run `resize_img.py` to save the resized image to `output`, then run `app.py` and provide the file name in `Sample Name`.
+2. Input a prompt such as pick up the coke can and place it on the desktop, then click `Save Prompt`.
+3. Put resized image in `Input 2: Object Mask`, and use the brush tool to annotate target object, then click `Save Mask`.
+4. Put resized image in `Input 3: Collaborative Trajectory`, and define the Start Frame and End Frame in `Step 2: Input Object Tracks`. 
+5. Draw the object trajectory by clicking dots on the image under `Input 3: Collaborative Trajectory`, then click `Submit & Load` to generate the preview video in `Output 2: Composite Video`. If it looks good, click `Save`, otherwise redo this step.
+6. Draw the robot arm trajectory by clicking dots on the image under `Input 3: Collaborative Trajectory`, and then click `Submit & Load` to generate the pre-interaction or post-interaction video & trajectories. Finally click `Save` to output the arm trajectory file.
     
 ## 🚀 Benchmark Evaluation
   ```
